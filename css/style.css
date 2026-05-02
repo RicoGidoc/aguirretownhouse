@@ -382,7 +382,7 @@ button {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 4px;
 
     /* Gradient color */
     background: linear-gradient(135deg, #1e3a8a, #10b981);
