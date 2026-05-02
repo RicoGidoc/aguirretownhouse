@@ -516,7 +516,7 @@ button {
       color: #fff;
       background: linear-gradient(45deg, #2563eb, #3b82f6);
       padding: 2px 4px;
-      border-radius: 15px;
+      border-radius: 1px;
       font-size: 12px;
       font-weight: bold;
       transition: 0.3s;
