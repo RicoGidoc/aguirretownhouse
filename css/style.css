@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 /* ===== NAVBAR ===== */
@@ -44,7 +44,7 @@ nav a {
     color: #fff;
     background: linear-gradient(45deg, #2563eb, #3b82f6);
     padding: 10px 16px;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 14px;
     font-weight: bold;
     transition: 0.3s;
@@ -494,7 +494,7 @@ button {
   }
 
   header h1 {
-      font-size: 15px;
+      font-size: 20px;
   }
 
   /* ===== NAVBAR ===== */
