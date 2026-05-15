@@ -26,6 +26,58 @@
     document.querySelector("#promobutton").classList.toggle("hide-section");
   }
 </script>
+
+   <style>
+
+/* Hide Header and Nav Smoothly */
+header,
+#promobutton {
+  max-height: 500px;
+  opacity: 1;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+/* Hidden State */
+.hide-section {
+  max-height: 0;
+  opacity: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 9999;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  background: #2563eb;
+} 
+
+.chat-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 120px;
+  background: #25D366;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 99999;
+}
+          </style>
   
 
 <body>
@@ -459,6 +511,22 @@ header,
   </div>
 
 </footer>
+  <a href="https://api.whatsapp.com/send?phone=639391209602&text=Hello%20I%27m%20interested%20in%20Aguirre%20Dasma%C3%B1as%20Cavite%20Townhouse%20unit"
+   onclick="window.open(this.href,'_blank'); return false;"
+   class="chat-btn">
+  💬 Chat with us
+</a>
+  
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  if (menuToggle && navLinks) {
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  }
+</script>
   
 </body>
 </html>
